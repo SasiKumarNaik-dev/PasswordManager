@@ -1,0 +1,101 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  min-width: 23%;
+  justify-content: space-between;
+  border: 1px #9ba9eb solid;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.wbs-logo {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-div {
+  display: flex;
+}
+.a {
+  background-color: #0ea5e9;
+}
+.b {
+  background-color: #f59e0b;
+}
+.c {
+  background-color: #10b981;
+}
+.d {
+  background-color: #f97316;
+}
+.e {
+  background-color: #14b8a6;
+}
+.f {
+  background-color: #b91c1c;
+}
+.text {
+  margin: 5px;
+}
+.content {
+  margin-left: 7px;
+}
+.del-img {
+  height: 25px;
+  width: 25px;
+}
+.del-div {
+  margin-left: 10px;
+}
+.del-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.stars-img {
+  height: 15px;
+  width: 110px;
+  margin: 5px;
+}
+.star-img-div {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .list {
+    min-width: 100%;
+  }
+  .wbs-logo {
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+  }
+  .del-img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .wbs-logo {
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .stars-img {
+    height: 10px;
+    width: 100px;
+  }
+}
